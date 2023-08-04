@@ -70,11 +70,5 @@ async function getData(countryName) {
       `
   }
   document.getElementById("row").innerHTML += divs
-
-  
-
-
-
 }
-
 getData("cairo")

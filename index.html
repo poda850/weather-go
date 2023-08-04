@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Condition</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-black bg-opacity-50 p-0 m-0">
+    <div class="shadow bg-dark bg-opacity-75">
+        <nav id="navbar-spy" class="navbar navbar-expand-md  mx-auto  container">
+            <a class="navbar-brand fw-bolder ms-3" href="#">
+                <i class="fa-solid fa-tornado text-warning fs-1"></i>
+                <span class="text-warning">Weather</span>
+                <span class="text-success fs-2">GO</span>
+            </a>
+            <button class="navbar-toggler border-0 me-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-light fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse  align-items-center  my-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-lg-0 p-0">
+                    <li class="nav-item mx-lg-3">
+                        <a class=" rounded-5 m-1 btn btn-outline-success border-2 px-4 " href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mx-lg-3">
+                        <a class=" rounded-5 m-1 btn btn-outline-success border-2 px-4 " href="#">News</a>
+                    </li>
+                    <li class="nav-item mx-lg-3">
+                        <a class=" rounded-5 m-1 btn btn-outline-success border-2 px-4 " href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item mx-lg-3">
+                        <a class=" rounded-5 m-1 btn btn-outline-success border-2 px-4 " href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mx-lg-3">
+                        <a class=" rounded-5 m-1 btn btn-outline-success border-2 px-4 " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container text-center my-5 mx-auto my-3 w-50">
+        <div class="row justify-content-center">
+            <input type="text" placeholder="Find your Location" class="form-control-lg rounded-5 border-0 col-md-9 my-2"
+                id="searchInput">
+            <button class="btn btn-success btn-lg rounded-5 col-md-2 offset-md-1 my-2 ofs">Find</button>
+        </div>
+    </div>
+    <div class="container mx-auto p-5">
+        <div class="row justify-content-center" id="row">
+
+        </div>
+    </div>
+    <!-- Footer section Start -->
+    <footer class=" bg-dark bg-opacity-75 py-md-1 text-center d-flex flex-column align-items-center justify-content-end">
+        <div class="row justify-content-center w-75 position-relative">
+            <input type="email" placeholder="Enter your email to subscribe..."
+                class="form-control-lg rounded-5 border-0 col-md-9 my-2">
+            <button class="btn btn-outline-primary btn-lg rounded-5 col-md-2 offset-md-1 my-2">Subscribe</button>
+        </div>
+        <div class="d-flex justify-content-center mt-2 ">
+            <a class="btn btn-outline-primary fs-5 home-icon mx-1 d-flex justify-content-around align-items-center p-1 bg-dark bg-opacity-10 border-0 rounded-circle text-decoration-none"
+                href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="btn btn-outline-primary fs-5 home-icon mx-1 d-flex justify-content-around align-items-center p-1 bg-dark bg-opacity-10 border-0 rounded-circle text-decoration-none"
+                href="https://twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="btn btn-outline-primary fs-5 home-icon mx-1 d-flex justify-content-around align-items-center p-1 bg-dark bg-opacity-10 border-0 rounded-circle text-decoration-none"
+                href="https://www.linkedin.com/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="btn btn-outline-primary fs-5 home-icon mx-1 d-flex justify-content-around align-items-center p-1 bg-dark bg-opacity-10 border-0 rounded-circle text-decoration-none"
+                href="https://www.youtube.com/" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+        <p class="text-secondary mb-1 mb-0">Copyright © 2023 Weather GO. Designed by Route. All Rights Reserved</p>
+    </footer>
+    <!-- Footer section End -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

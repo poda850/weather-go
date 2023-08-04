@@ -1,0 +1,9 @@
+input {
+    outline: none !important;
+    background-color: rgba(0, 0, 0, 0.663);
+}
+
+.home-icon {
+    width: 40px;
+    height: 40px;
+}

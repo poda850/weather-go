@@ -26,7 +26,7 @@ async function getData(countryName) {
   let FinalJson = await apiResponse.json();
   console.log(FinalJson)
   document.getElementById("row").innerHTML = `
-  <div class="col-md-3 bg-dark text-light rounded-3 p-4 m-3" id="day1">
+  <div class="col-md-3 bg-black text-light rounded-3 p-4 m-3" id="day1">
     <div class="d-flex justify-content-between mb-4">
         <span id="day1Name">${new Date(FinalJson.current.last_updated).toLocaleString('en-us', { weekday: 'long' })}</span>
         <span id="day1Date">${new Date(FinalJson.current.last_updated).toLocaleString('en-us', { month: 'long', day: 'numeric' })}</span>
@@ -58,7 +58,7 @@ async function getData(countryName) {
   let divs = ""
   for (i = 1; i < FinalJson.forecast.forecastday.length; i++) {
     divs += `
-      <div class="col-md-3 bg-dark text-light rounded-3 p-4 d-flex flex-column align-items-center justify-content-evenly m-3" id="day2">
+      <div class="col-md-3 bg-black text-light rounded-3 p-4 d-flex flex-column align-items-center justify-content-evenly m-3" id="day2">
       <div>${new Date(FinalJson.forecast.forecastday[i].date).toLocaleString('en-us', { weekday: 'long' })}</div>
       <img src="${FinalJson.forecast.forecastday[i].day.condition.icon}" alt="" class="w-25">
       <div>

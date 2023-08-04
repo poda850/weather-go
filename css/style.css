@@ -4,5 +4,10 @@ input {
 }
 
 footer {
-margin-top: 250px;
+    margin-top: 250px;
+}
+
+body {
+    background-image: url("../img/beautiful-cloudscape-sunset-evening-dawn.jpg");
+    background-size: cover;
 }

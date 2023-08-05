@@ -22,7 +22,8 @@ searchInput.addEventListener("blur", function () {
 
 
 async function getData(countryName) {
-  let apiResponse = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6d789464a7f9413c939135237230408&q=${countryName}&days=3&aqi=no&alerts=no`);
+  let apiResponse = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6d789464a7f9413c939135237230408&q=${countryName}&days=3&aqi=no&alerts=no
+  `);
   let FinalJson = await apiResponse.json();
   console.log(FinalJson)
   document.getElementById("row").innerHTML = `
